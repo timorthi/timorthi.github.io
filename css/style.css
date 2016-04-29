@@ -1,0 +1,96 @@
+/*
+GENERAL ELEMENTS
+____________________ */
+html { overflow-y: scroll; }
+body { background-color: #f2f2f2; }
+
+span.separator { padding: 0 4px; color: #222; }
+
+hr.hfSep{ border-top: 3px double #8c8b8b; }
+
+/*
+HEADER
+____________________ */
+header { padding: 0px; font-size: 3rem; line-height: 30px; }
+header a { color: #222; }
+header a:hover { color: #BF3333; border:none ; }
+
+#headerCont { padding-top: 10px; }
+
+#navCont { padding-right: 1rem; text-align:right; }
+#navCont a { font-size: 2rem; }
+#navCont a:hover { border-bottom: 1px solid; }
+
+/*
+MAIN BODY
+____________________ */
+#introduction p {
+	text-align:center;
+	font-size: 2.5rem;
+}
+
+.content {
+}
+
+/*
+FOOTER
+____________________ */
+#footer { margin-top: 7px; }
+#footer p { text-align:center; font-style: italic;font-size: 1.1rem; }
+
+/*
+MEDIA QUERIES
+____________________ */
+@media (max-width: 400px) { /*Phone*/
+	/*header { text-align:center; }
+	h1 { text-align:center;}*/
+}
+
+@media (max-width: 750px) { /*Tablet*/
+	header { text-align:center; }
+	h1 { text-align:center;}
+	#navCont { text-align:center; }
+}
+
+/*
+CIRCULAR IMAGE *Note that image much be square
+____________________ */
+.image-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-cropper img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+/*
+TYPEWRITER
+____________________ */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
