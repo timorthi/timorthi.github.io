@@ -42,14 +42,14 @@ ____________________ */
 MEDIA QUERIES
 ____________________ */
 @media (max-width: 400px) { /*Phone*/
-	header { text-align:center; }
-	h1 { text-align:center; }
+/*	header { text-align:center; }
+	h1 { text-align:center; }*/
 }
 
 @media (max-width: 750px) { /*Tablet*/
 	header { text-align:center; }
 	h1 { text-align:center;}
-	#navCont { text-align:center; }
+	#navCont { text-align:center; padding-right:0px; }
 }
 
 /*
