@@ -42,8 +42,8 @@ ____________________ */
 MEDIA QUERIES
 ____________________ */
 @media (max-width: 400px) { /*Phone*/
-	/*header { text-align:center; }
-	h1 { text-align:center;}*/
+	header { text-align:center; }
+	h1 { text-align:center; }
 }
 
 @media (max-width: 750px) { /*Tablet*/
@@ -53,22 +53,10 @@ ____________________ */
 }
 
 /*
-CIRCULAR IMAGE *Note that image much be square
+CIRCULAR IMAGE *Note that image much be square for this to work
 ____________________ */
-.image-cropper {
-    width: 150px;
-    height: 150px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.image-cropper img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
-}
+.image-cropper { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
+.image-cropper img { display: inline; margin: 0 auto; height: 100%; width: auto; }
 
 /*
 TYPEWRITER
