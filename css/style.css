@@ -27,8 +27,8 @@ header a:hover { color: #BF3333; border:none ; }
 MAIN BODY
 ____________________ */
 #introduction p {
-	text-align:center;
-	font-size: 2.5rem;
+    text-align:center;
+    font-size: 2.5rem;
 }
 
 .content {
@@ -44,15 +44,15 @@ ____________________ */
 MEDIA QUERIES
 ____________________ */
 @media (max-width: 400px) { /*Phone*/
-/*	header { text-align:center; }
-	h1 { text-align:center; }*/
+/*  header { text-align:center; }
+    h1 { text-align:center; }*/
 }
 
 @media (max-width: 750px) { /*Tablet*/
-	header { text-align:center; }
-	h1 { text-align:center; }
+    header { text-align:center; }
+    h1 { text-align:center; }
     p { text-align:justify; }
-	#navCont { text-align:center; padding-right:0px; }
+    #navCont { text-align:center; padding-right:0px; }
     img.error{ width: 200px; height: 150px; }
 }
 
