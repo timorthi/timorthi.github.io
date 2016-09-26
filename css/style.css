@@ -61,28 +61,3 @@ CIRCULAR IMAGE *Note that image much be square for this to work
 ____________________ */
 .image-cropper { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
 .image-cropper img { display: inline; margin: 0 auto; height: 100%; width: auto; }
-
-/*
-TYPEWRITER
-____________________ */
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
