@@ -35,6 +35,62 @@ ____________________ */
 }
 
 /*
+PORTFOLIO CARDS
+____________________ */
+.card {
+    border: 1px solid #C3C3C3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    background-color: #E8E8E8;
+    cursor: pointer;
+}
+
+.card-title {
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #C3C3C3;
+    text-align: center;
+}
+
+.card-preview {
+}
+
+.card-preview > img {
+    display: block;
+    max-width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*
+LIGHTBOX
+____________________ */
+#lightbox-windows {
+    display: none;
+}
+
+.lightbox {
+}
+
+.lightbox h1 {
+    margin-bottom: 0;
+}
+
+.lightbox > .featherlight-content {
+    max-width: 750px;
+}
+
+.lightbox > .featherlight-content > .featherlight-inner > 
+.subtitle {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+/*
 FOOTER
 ____________________ */
 #footer { margin-top: 7px; }
@@ -54,6 +110,7 @@ ____________________ */
     p { text-align:justify; }
     #navCont { text-align:center; padding-right:0px; }
     img.error{ width: 200px; height: 150px; }
+    .card { margin-top: 5px; }
 }
 
 /*
