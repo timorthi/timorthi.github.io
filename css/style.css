@@ -87,7 +87,7 @@ ____________________ */
     max-width: 750px;
 }
 
-.lightbox > .featherlight-content > .featherlight-inner > 
+.lightbox > .featherlight-content > .featherlight-inner >
 .subtitle {
     opacity: 0.7;
     font-style: italic;
@@ -97,7 +97,7 @@ ____________________ */
 FOOTER
 ____________________ */
 #footer { margin-top: 7px; }
-#footer p { text-align:center; font-style: italic;font-size: 1.1rem; }
+#footer p { text-align:center; }
 
 /*
 MEDIA QUERIES
