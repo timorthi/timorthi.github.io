@@ -24,15 +24,19 @@ header a:hover { color: #BF3333; border:none ; }
 #navCont a:hover { border-bottom: 1px solid; }
 
 /*
-MAIN BODY
+INTRODUCTION SECTION
 ____________________ */
 #introduction p {
     text-align:center;
     font-size: 2.5rem;
 }
 
-.content {
+#introduction #headshot {
+    height: 10em;
+    width: 10em;
+    margin: 0 auto;
 }
+
 
 /*
 PORTFOLIO CARDS
@@ -119,5 +123,5 @@ ____________________ */
 /*
 CIRCULAR IMAGE *Note that image much be square for this to work
 ____________________ */
-.image-cropper { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
-.image-cropper img { display: inline; margin: 0 auto; height: 100%; width: auto; }
+.circle-img { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
+.circle-img img { display: inline; margin: 0 auto; height: 100%; width: auto; }
