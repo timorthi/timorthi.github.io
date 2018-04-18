@@ -6,7 +6,7 @@ body { background-color: #f2f2f2; }
 
 span.separator { padding: 0 4px; color: #222; }
 
-hr.hfSep{ border-top: 3px double #8c8b8b; }
+hr.header-footer-seperator { border-top: 3px double #8c8b8b; margin: 0; }
 
 img.error { border-radius: 25px; padding: 20px; width: 300px;height: 250px; }
 
@@ -27,12 +27,13 @@ header a:hover { color: #BF3333; border:none ; }
 INTRODUCTION SECTION
 ____________________ */
 #introduction #headshot {
+    display: block;
     height: 20rem;
     width: 20rem;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
-#introduction #text-container { margin: 2rem 0; }
+#introduction #text-container { margin: 1rem 0; }
 
 #introduction #text-container p {
     text-align: center;
