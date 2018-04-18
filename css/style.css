@@ -13,14 +13,12 @@ img.error { border-radius: 25px; padding: 20px; width: 300px;height: 250px; }
 /*
 HEADER
 ____________________ */
-header { padding: 0px; font-size: 3rem; line-height: 30px; }
-header a { color: #222; }
-header a:hover { color: #BF3333; border:none ; }
+#brand { font-size: 2rem; padding: 0; margin: 0; }
+#brand a { color: black; }
+#brand a:hover { color: #BF3333; border: none; }
 
-#headerCont { padding-top: 10px; }
-
-#navCont { padding-right: 1rem; text-align:right; }
-#navCont a { font-size: 2rem; }
+#navCont { text-align:right; }
+#navCont a { font-size: 1.75rem; }
 #navCont a:hover { border-bottom: 1px solid; }
 
 /*
@@ -37,7 +35,7 @@ ____________________ */
 
 #introduction #text-container p {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -110,12 +108,10 @@ ____________________ */
 MEDIA QUERIES
 ____________________ */
 @media (max-width: 400px) { /*Phone*/
-/*  header { text-align:center; }
-    h1 { text-align:center; }*/
 }
 
 @media (max-width: 750px) { /*Tablet*/
-    header { text-align:center; }
+    #brand { text-align: center; }
     h1 { text-align:center; }
     p { text-align:justify; }
     #navCont { text-align:center; padding-right:0px; }
