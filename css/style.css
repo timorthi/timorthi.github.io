@@ -23,6 +23,7 @@ img.error {
 }
 
 div.content-container { font-size: 1.75rem; }
+div.content-container.centered p { text-align: center; }
 
 .section-heading {
     text-align: center;
@@ -62,6 +63,25 @@ ____________________ */
 ABOUT SECTION
 ____________________ */
 #about .content-container:first-child { margin-top: 2rem; }
+
+/*
+PORTFOLIO SECTION
+____________________ */
+#portfolio .content-container:first-child { margin-top: 2rem; }
+
+.project-links-container {
+    /* background-color: yellow; */
+}
+
+.project-links-container div.project {
+    margin: 2rem 0;
+    display: block;
+}
+
+.project-links-container div.project p {
+    margin: 0;
+    padding: 0;
+}
 
 /*
 PORTFOLIO CARDS
