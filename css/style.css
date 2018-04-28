@@ -53,6 +53,21 @@ ____________________ */
 #introduction .large-text-container p { font-size: 2rem; }
 
 /*
+SKILLS SUMMARY SUBSECTION
+____________________ */
+#skills-summary { margin-top: 1rem; }
+.tech-list .title {
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tech-list li {
+    margin: 0;
+    list-style-type: disc;
+}
+
+/*
 ABOUT SECTION
 ____________________ */
 #about .content-container:first-child { margin-top: 2rem; }
@@ -94,6 +109,8 @@ ____________________ */
 @media (max-width: 550px) { /*Phone*/
     #brand { text-align: center; }
     #nav-container { text-align: center; }
+    .tech-list p, .tech-list { text-align: center; }
+    .tech-list li { list-style-type: none; }
 }
 
 /*
