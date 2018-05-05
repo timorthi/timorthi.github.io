@@ -4,117 +4,117 @@ ____________________ */
 html { overflow-y: scroll; }
 body { background-color: #f2f2f2; }
 
-span.separator { padding: 0 4px; color: #222; }
+span.separator {
+    padding: 0 4px;
+    color: #222;
+}
 
-hr.hfSep{ border-top: 3px double #8c8b8b; }
+hr { border-top: 2px solid #d4d4d4; }
+hr.header-footer-seperator {
+    border-top: 3px double #8c8b8b;
+    margin: 0;
+}
 
-img.error { border-radius: 25px;padding: 20px; width: 300px;height: 250px; }
+div.content-container { font-size: 1.75rem; }
+div.content-container.centered p { text-align: center; }
+
+.section-heading {
+    text-align: center;
+    margin: 0;
+}
 
 /*
 HEADER
 ____________________ */
-header { padding: 0px; font-size: 3rem; line-height: 30px; }
-header a { color: #222; }
-header a:hover { color: #BF3333; border:none ; }
+#brand { font-size: 2rem; padding: 0; margin: 0; }
+#brand a { color: black; }
+#brand a:hover { color: #BF3333; border: none; }
 
-#headerCont { padding-top: 10px; }
-
-#navCont { padding-right: 1rem; text-align:right; }
-#navCont a { font-size: 2rem; }
-#navCont a:hover { border-bottom: 1px solid; }
+#nav-container { text-align:right; }
+#nav-container a { font-size: 1.75rem; }
+#nav-container a:hover { border-bottom: 1px solid; }
 
 /*
-MAIN BODY
+INTRODUCTION SECTION
 ____________________ */
 #introduction p {
-    text-align:center;
-    font-size: 2.5rem;
-}
-
-.content {
-}
-
-/*
-PORTFOLIO CARDS
-____________________ */
-.card {
-    border: 1px solid #C3C3C3;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.card:hover {
-    background-color: #E8E8E8;
-    cursor: pointer;
-}
-
-.card-title {
-    font-weight: bold;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom: 1px solid #C3C3C3;
     text-align: center;
+    margin: 0;
 }
 
-.card-preview {
-}
-
-.card-preview > img {
+#introduction #headshot {
     display: block;
-    max-width: 100%;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem auto;
+}
+
+#introduction .large-text-container { margin: 1rem 0; }
+#introduction .large-text-container p { font-size: 2rem; }
+
+/*
+SKILLS SUMMARY SUBSECTION
+____________________ */
+#skills-summary { margin-top: 1rem; }
+.tech-list .title {
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tech-list li {
+    margin: 0;
+    list-style-type: disc;
 }
 
 /*
-LIGHTBOX
+ABOUT SECTION
 ____________________ */
-#lightbox-windows {
-    display: none;
+#about .content-container:first-child { margin-top: 2rem; }
+
+/*
+PORTFOLIO SECTION
+____________________ */
+#portfolio .content-container:first-child { margin-top: 2rem; }
+
+.project-links-container div.project {
+    margin: 2rem 0;
+    display: block;
 }
 
-.lightbox {
+.project-links-container div.project p {
+    margin: 0;
+    padding: 0;
 }
 
-.lightbox h1 {
-    margin-bottom: 0;
+/*
+ERROR PAGE
+____________________ */
+#error {
+    text-align: center;
+    margin: 1rem;
 }
 
-.lightbox > .featherlight-content {
-    max-width: 750px;
-}
-
-.lightbox > .featherlight-content > .featherlight-inner > 
-.subtitle {
-    opacity: 0.7;
-    font-style: italic;
-}
+#error p { margin: 0 }
 
 /*
 FOOTER
 ____________________ */
-#footer { margin-top: 7px; }
-#footer p { text-align:center; font-style: italic;font-size: 1.1rem; }
+#footer p { text-align:center; }
+#footer .icon { font-size: 1.5rem; }
 
 /*
 MEDIA QUERIES
 ____________________ */
-@media (max-width: 400px) { /*Phone*/
-/*  header { text-align:center; }
-    h1 { text-align:center; }*/
-}
-
-@media (max-width: 750px) { /*Tablet*/
-    header { text-align:center; }
-    h1 { text-align:center; }
-    p { text-align:justify; }
-    #navCont { text-align:center; padding-right:0px; }
-    img.error{ width: 200px; height: 150px; }
-    .card { margin-top: 5px; }
+@media (max-width: 550px) { /*Phone*/
+    #brand { text-align: center; }
+    #nav-container { text-align: center; }
+    .tech-list p, .tech-list { text-align: center; }
+    .tech-list li { list-style-type: none; }
 }
 
 /*
 CIRCULAR IMAGE *Note that image much be square for this to work
 ____________________ */
-.image-cropper { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
-.image-cropper img { display: inline; margin: 0 auto; height: 100%; width: auto; }
+.circle-img { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
+.circle-img img { display: inline; margin: 0 auto; height: 100%; width: auto; }
