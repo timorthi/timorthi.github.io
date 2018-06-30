@@ -10,48 +10,161 @@
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,400italic,300italic,700' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/analytics.js"></script>
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   </head>
 
   <body>
-    <div class='container'> <!-- .container is the main centered wrapper"-->
-        <div id='headerCont'>
+    <div class='container'>
+        <div id='header-container'>
             <div class='row'>
                 <div class="six columns">
-                    <header><a href="http://timothyng.xyz">timothy ng</a></header>
+                    <p id="brand"><a href="index.html">timothy ng</a></p>
                 </div>
 
-                <div id='navCont' class="six columns">
-                    <a href="http://timothyng.xyz">home</a> <span class='separator'>-</span>
-                    <a href="about.html">about</a> <span class='separator'>-</span>
-                    <a href="portfolio.html">portfolio</a>
+                <div id='nav-container' class="six columns">
+                    <a href="#about">about</a> <span class='separator'>-</span>
+                    <a href="#portfolio">portfolio</a>
                 </div>
             </div>
         </div>
 
-        <hr class='hfSep' style='margin-top:0rem;'>
+        <hr class='header-footer-seperator'>
 
         <!--__________CONTENT__________ -->
         <div id='introduction'>
-            <p>
-            Hi! I'm Tim. <br>
-            I am a programmer, gamer & e-Sports enthusiast.<br>
-            I am a senior majoring in Computer Science at California State University, Northridge.<br>
-            If you'd like to reach me, shoot me an <a href="mailto:hello@timothyng.xyz">e-mail</a>!
-            </p>
+            <div class="row">
+                <div id="headshot" class="circle-img">
+                    <img src="img/headshot.jpg" class="rounded" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-text-container">
+                    <p>Hi! I'm Tim.</p>
+                    <p>I am a full-stack web developer &amp; esports enthusiast.</p>
+                    <p>I am currently in my senior year at California State University-Northridge, graduating in December 2018 with a BSc. in Computer Science.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-text-container">
+                    <p>If you'd like to get in touch with me, you can <a href="mailto:hello@timothyng.xyz">e-mail me</a>.</p>
+                    <p>You can also find me on <a href="https://www.linkedin.com/in/timorthi" target='_blank'>LinkedIn</a>, <a href="https://github.com/timorthi" target='_blank'>GitHub</a>, and <a href="https://gitlab.com/timorthi" target="_blank">GitLab</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills-summary">
+            <div class="row">
+                <div class="content-container">
+                    <p>
+                        My programming experience so far consists of designing and developing programs using <b>Ruby</b>, <b>Python</b> and <b>JavaScript</b>. With these languages, I've had the opportunity to work with a variety of tools and libraries:
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content-container">
+                    <div class="row">
+                        <div class="six columns">
+                            <div class="tech-list">
+                                <p class="title">Front-End</p>
+                                <ul>
+                                    <li>jQuery</li>
+                                    <li>ReactJS + Redux</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="six columns">
+                            <div class="tech-list">
+                                <p class="title">Back-End</p>
+                                <ul>
+                                    <li>Falcon (Python)</li>
+                                    <li>Flask (Python)</li>
+                                    <li>Ruby on Rails</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="six columns">
+                            <div class="tech-list">
+                                <p class="title">Tools</p>
+                                <ul>
+                                    <li>Docker</li>
+                                    <li>Git</li>
+                                    <li>Webpack</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="six columns">
+                            <div class="tech-list">
+                                <p class="title">Deployment Solutions</p>
+                                <ul>
+                                    <li>Google Cloud Platform</li>
+                                    <li>Heroku</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="about">
+            <div class="row">
+                <h4 class="section-heading">About Me</h4>
+            </div>
+            <div class="row">
+                <div class="content-container">
+                    <p>
+                        Born and raised in Kuala Lumpur, Malaysia, I'm currently living in Los Angeles, California while I work on completing my undergraduate studies at CSU-Northridge.
+                    </p>
+                    <p>
+                        Like many others, my love for video games introduced me to the world of programming. My first experience with code was when I had to mess around with a reverse-engineered Java-based MMORPG in order to spin up a private server. Though I had no idea what I was doing at the time, it was already too late &mdash; I got bit by the coding bug and eventually moved on to writing simple CLI-based programs like tic-tac-toe or an arithmetic calculator. Today, I mostly work on web-based projects. Although I'm comfortable with the whole stack, I take particular interest in the back-end and infrastructure side of things.
+                    </p>
+                    <p>
+                        I believe in using my skill set in programming to give back to society. I've contributed to open-source projects like <a href="https://if-me.org" target="_blank">if-me.org</a>, a platform for sharing mental health experiences. All my personal projects are also open-source &mdash; I've learned a lot through reading others' code, and I hope I can help others do the same by sharing mine. You can check out my portfolio below to read about some of the things I've made so far.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="portfolio">
+            <div class="row">
+                <h4 class="section-heading">Portfolio</h4>
+            </div>
+            <div class="row">
+                <div class="content-container">
+                    <p>Here are some of the projects I've worked on recently!</p>
+                    <div class="project-links-container">
+                        <div class="project">
+                            <p><a href="https://www.redditraffler.com/">redditraffler.com</a> &mdash; An automated raffle system for Reddit threads.</p>
+                        </div>
+                        <div class="project">
+                            <p><a href="https://buddyz.io">buddyz.io</a> &mdash; A social networking platform exclusively for students.</p>
+                        </div>
+                        <div class="project">
+                            <p><a href="https://www.if-me.org/">if-me.org</a> &mdash; A platform for sharing mental health experiences with loved ones.</p>
+                        </div>
+                        <div class="project">
+                            <p><a href="https://github.com/timorthi/pyfootball">pyfootball</a> &mdash; A client library for the football-data.org API.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--__________END CONTENT__________ -->
 
-        <hr class='hfSep' style='margin-top:0rem; margin-bottom:0rem;'>
+        <hr class='header-footer-seperator'>
 
         <div id='footer'>
           <p>
-            <a href="mailto:hello@timothyng.xyz"><i class="fa fa-envelope" aria-hidden="true" style='font-size:1.5rem;'></i></a> - <a href="https://github.com/timorthi" target='_blank'><i class="fa fa-github-alt" aria-hidden="true" style='font-size:1.5rem;'></i></a> - <a href="https://www.linkedin.com/in/timorthi" target='_blank'><i class="fa fa-linkedin" aria-hidden="true" style='font-size:1.5rem;'></i></a> - <a href="https://twitter.com/timorthi" target='_blank'><i class="fa fa-twitter" aria-hidden="true" style='font-size:1.5rem;'></i></a>
+            <a href="mailto:hello@timothyng.xyz"><i class="fa fa-envelope icon" aria-hidden="true"></i></a> - <a href="https://www.linkedin.com/in/timorthi" target='_blank'><i class="fab fa-linkedin icon" aria-hidden="true"></i></a> - <a href="https://github.com/timorthi" target='_blank'><i class="fab fa-github-alt icon" aria-hidden="true"></i></a> - <a href="https://gitlab.com/timorthi" target="_blank"><i class="fab fa-gitlab icon"></i></a>
           </p>
         </div>
 

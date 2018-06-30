@@ -125,7 +125,7 @@ body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Josefin Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -164,7 +164,7 @@ a {
   text-decoration:none;
   color: #9C1818; }
 a:hover {
-  color: #BF3333; 
+  color: #BF3333;
   border-bottom: 1px solid; }
 
 
