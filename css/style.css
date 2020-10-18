@@ -1,120 +1,182 @@
 /*
 GENERAL ELEMENTS
 ____________________ */
-html { overflow-y: scroll; }
-body { background-color: #f2f2f2; }
+html {
+  overflow-y: scroll;
+}
+body {
+  background-color: #f2f2f2;
+}
 
 span.separator {
-    padding: 0 4px;
-    color: #222;
+  padding: 0 4px;
+  color: #222;
 }
 
-hr { border-top: 2px solid #d4d4d4; }
+hr {
+  border-top: 2px solid #d4d4d4;
+}
 hr.header-footer-seperator {
-    border-top: 3px double #8c8b8b;
-    margin: 0;
+  border-top: 3px double #8c8b8b;
+  margin: 0;
 }
 
-div.content-container { font-size: 1.75rem; }
-div.content-container.centered p { text-align: center; }
+div.content-container {
+  font-size: 1.75rem;
+}
+div.content-container.centered p {
+  text-align: center;
+}
 
 .section-heading {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 /*
 HEADER
 ____________________ */
-#brand { font-size: 2rem; padding: 0; margin: 0; }
-#brand a { color: black; }
-#brand a:hover { color: #BF3333; border: none; }
+#brand {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+#brand a {
+  color: black;
+}
+#brand a:hover {
+  color: #bf3333;
+  border: none;
+}
 
-#nav-container { text-align:right; }
-#nav-container a { font-size: 1.75rem; }
-#nav-container a:hover { border-bottom: 1px solid; }
+#nav-container {
+  text-align: right;
+}
+#nav-container a {
+  font-size: 1.75rem;
+}
+#nav-container a:hover {
+  border-bottom: 1px solid;
+}
 
 /*
 INTRODUCTION SECTION
 ____________________ */
 #introduction p {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
 #introduction #headshot {
-    display: block;
-    height: 20rem;
-    width: 20rem;
-    margin: 2rem auto;
+  display: block;
+  height: 20rem;
+  width: 20rem;
+  margin: 2rem auto;
 }
 
-#introduction .large-text-container { margin: 1rem 0; }
-#introduction .large-text-container p { font-size: 2rem; }
+#introduction .large-text-container {
+  margin: 1rem 0;
+}
+#introduction .large-text-container p {
+  font-size: 2rem;
+}
 
 /*
 SKILLS SUMMARY SUBSECTION
 ____________________ */
-#skills-summary { margin-top: 1rem; }
+#skills-summary {
+  margin-top: 1rem;
+}
 .tech-list .title {
-    margin: 0;
-    font-weight: bold;
-    text-decoration: underline;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .tech-list li {
-    margin: 0;
-    list-style-type: disc;
+  margin: 0;
+  list-style-type: disc;
 }
 
 /*
 ABOUT SECTION
 ____________________ */
-#about .content-container:first-child { margin-top: 2rem; }
+#about .content-container:first-child {
+  margin-top: 2rem;
+}
 
 /*
 PORTFOLIO SECTION
 ____________________ */
-#portfolio .content-container:first-child { margin-top: 2rem; }
+#portfolio .content-container:first-child {
+  margin-top: 2rem;
+}
 
 .project-links-container div.project {
-    margin: 2rem 0;
-    display: block;
+  margin: 2rem 0;
+  display: block;
 }
 
 .project-links-container div.project p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
 ERROR PAGE
 ____________________ */
 #error {
-    text-align: center;
-    margin: 1rem;
+  text-align: center;
+  margin: 1rem;
 }
 
-#error p { margin: 0 }
+#error p {
+  margin: 0;
+}
 
 /*
 FOOTER
 ____________________ */
-#footer p { text-align:center; }
-#footer .icon { font-size: 1.5rem; }
+#footer p {
+  text-align: center;
+}
+#footer .icon {
+  font-size: 1.5rem;
+}
 
 /*
 MEDIA QUERIES
 ____________________ */
-@media (max-width: 550px) { /*Phone*/
-    #brand { text-align: center; }
-    #nav-container { text-align: center; }
-    .tech-list p, .tech-list { text-align: center; }
-    .tech-list li { list-style-type: none; }
+@media (max-width: 550px) {
+  /*Phone*/
+  #brand {
+    text-align: center;
+  }
+  #nav-container {
+    text-align: center;
+  }
+  .tech-list p,
+  .tech-list {
+    text-align: center;
+  }
+  .tech-list li {
+    list-style-type: none;
+  }
 }
 
 /*
 CIRCULAR IMAGE *Note that image much be square for this to work
 ____________________ */
-.circle-img { width: 150px; height: 150px; position: relative; overflow: hidden; border-radius: 50%; }
-.circle-img img { display: inline; margin: 0 auto; height: 100%; width: auto; }
+.circle-img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.circle-img img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
